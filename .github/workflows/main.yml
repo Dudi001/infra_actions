@@ -27,4 +27,4 @@ jobs:
         # запуск проверки проекта по flake8
         python -m flake8
         cd infa_project/
-        python manage.py tests.py
+        python manage.py test
